@@ -1,0 +1,54 @@
+body{
+  font-family: Trirong;
+  background-color: darkorange;
+  }
+.common-box{
+  padding: 25px 25px 25px 25px;
+}
+
+#box-one{
+  font-size: 32px;
+  background-color: lightsalmon;
+  font: maroon;
+  margin-top: 12px;
+  margin: 5px 5px 5px 5px;
+
+}
+#box-two{
+  font-size: 12px;
+  background-color: darkgrey;
+  margin: 5px 5px 5px 5px;
+}
+
+#box-three{
+  font-size: 24px;
+  background-color: grey;
+  margin: margin: 5px 5px 5px 5px;
+}
+
+box-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+
+/*5. Inside the css file create a class called common-box and set the padding to be 25px for the top
+      bottom, left, and right
+
+      6. Still inside the css file create an id of box-one and set the font size 32px, a new background color
+      of your choosing, and font color of your choosing. Set the margins to be top/bottom 12px right/left 24px
+
+      7. Still inside the css file create an id of box-two and se the font-size 12px, a new background color
+      of your choosing, and font color of your choosing. Set the margins to all around be 5px
+
+      8. Still inside the css file create an id of box-three and se the font-size 24px, a new background color
+      of your choosing, and font color of your choosing. Set the margins to be 12px top, 5px bottom, 7px right, 50px left
+
+      9. Still inside the css file create an id of box-container and set it to display flex with a flex direction of row and align
+      the items to be center
+
+      10. BONUS: Im sure what you are looking at right now is a bit messy, sort of like a Jackson Pollock painting. As a bonus,
+      play with the margins and paddings of each box till it looks semi-organized
